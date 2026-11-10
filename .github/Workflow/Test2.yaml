@@ -1,7 +1,10 @@
 name: My second github actions file
 on:
-  branches:
-    - master
+  push:
+    branches:
+      - master
+      
+    
 jobs:
   build:
     runs-on: ubuntu-latest
